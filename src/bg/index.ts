@@ -1,6 +1,6 @@
 chrome.action.onClicked.addListener((tab) => {
   chrome.storage.local.get("url").then(({ url: everthingIcsBaseUrl }) => {
-    if(!everthingIcsBaseUrl) {
+    if (!everthingIcsBaseUrl) {
       return;
     }
     const contentPageUrl = tab.url;
