@@ -12,6 +12,13 @@ const manifest = defineManifest({
     "32": "icons/icon32.png",
     "128": "icons/icon128.png"
   },
+  "action": {
+    "default_icon": "icons/icon16.png",
+    "default_title": "everthing-ics"
+  },
+  "background": {
+    "service_worker": "src/bg/index.ts"
+  }
 });
 
 export default defineConfig({
