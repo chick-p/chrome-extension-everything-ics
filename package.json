@@ -12,6 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/chrome": "^0.0.235",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "vite": "^4.3.4"
   }
 }
