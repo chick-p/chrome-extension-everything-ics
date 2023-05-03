@@ -16,6 +16,9 @@ const manifest = defineManifest({
     "default_icon": "icons/icon16.png",
     "default_title": "everthing-ics"
   },
+  "permissions": [
+    "activeTab",
+  ],
   "background": {
     "service_worker": "src/bg/index.ts"
   }
