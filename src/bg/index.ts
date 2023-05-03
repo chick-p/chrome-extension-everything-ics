@@ -1,10 +1,13 @@
-const everthingIcsBaseUrl = "https://example.workers.dev"
-
 chrome.action.onClicked.addListener((tab) => {
-  const url = tab.url;
-  if (url) {
-    chrome.tabs.create({
-      url: `${everthingIcsBaseUrl}/ics?url=${url}`,
-    });
-  }
+  chrome.storage.local.get("url").then(({ url: everthingIcsBaseUrl }) => {
+    if(!everthingIcsBaseUrl) {
+      return;
+    }
+    const contentPageUrl = tab.url;
+    if (contentPageUrl) {
+      chrome.tabs.create({
+        url: `${everthingIcsBaseUrl}/ics?url=${contentPageUrl}`,
+      });
+    }
+  });
 });
