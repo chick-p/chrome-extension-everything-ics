@@ -10,3 +10,9 @@ pnpm run build
 ```
 
 And load unpack extension from dist/.
+
+---
+
+Icons provided by Flaticon
+
+- [Calendar icons created by DinosoftLabs - Flaticon](https://www.flaticon.com/free-icons/calendar)
