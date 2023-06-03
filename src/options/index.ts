@@ -6,17 +6,24 @@ const load = () => {
     }
   });
   const button = document.querySelector(".js-save");
+  const messageElement = <HTMLDivElement>document.querySelector(".js-message");
   button?.addEventListener("click", () => {
-    const url = urlElement.value;
-    chrome.storage.local.set({ url }).then(() => {
-      const messageElement = <HTMLDivElement>(
-        document.querySelector(".js-message")
-      );
-      if (messageElement) {
+    try {
+      const { origin } = new URL(urlElement.value);
+      chrome.storage.local.set({ url: origin }).then(() => {
         messageElement.textContent = "Saved!";
+        messageElement.classList.remove("message--failure");
+        messageElement.classList.add("message--success");
         messageElement.classList.remove("hidden");
-      }
-    });
+
+        urlElement.value = origin;
+      });
+    } catch (err) {
+      messageElement.textContent = "Fail to save!";
+      messageElement.classList.remove("message--success");
+      messageElement.classList.add("message--failure");
+      messageElement.classList.remove("hidden");
+    }
   });
 };
 
