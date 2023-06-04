@@ -28,3 +28,22 @@ chrome.action.onClicked.addListener(async (tab) => {
     sendToEverthingIcs(everythingIcsBaseUrl, url);
   }
 });
+
+chrome.contextMenus.create({
+  id: "everything-ics",
+  title: "everything-ics",
+  contexts: ["all"],
+});
+
+chrome.contextMenus.onClicked.addListener(async (info, tab) => {
+  if (!tab) {
+    return;
+  }
+  if (info.menuItemId === "everything-ics") {
+    const everythingIcsBaseUrl = await getEverythingIcsBaseUrl();
+    const url = tab.url;
+    if (everythingIcsBaseUrl && url) {
+      sendToEverthingIcs(everythingIcsBaseUrl, url);
+    }
+  }
+});

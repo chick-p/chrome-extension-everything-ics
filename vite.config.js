@@ -20,7 +20,7 @@ const manifest = defineManifest({
   options_ui: {
     page: "options.html",
   },
-  permissions: ["activeTab", "storage"],
+  permissions: ["activeTab", "storage", "contextMenus"],
   background: {
     service_worker: "src/bg/index.ts",
   },
