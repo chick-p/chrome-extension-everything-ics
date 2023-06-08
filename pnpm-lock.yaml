@@ -3,7 +3,7 @@ lockfileVersion: '6.0'
 devDependencies:
   '@crxjs/vite-plugin':
     specifier: ^1.0.14
-    version: 1.0.14(vite@4.3.4)
+    version: 1.0.14(vite@4.3.9)
   '@types/chrome':
     specifier: ^0.0.237
     version: 0.0.237
@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^5.0.4
     version: 5.0.4
   vite:
-    specifier: ^4.3.4
-    version: 4.3.4
+    specifier: ^4.3.9
+    version: 4.3.9
 
 packages:
 
@@ -284,7 +284,7 @@ packages:
     dev: true
     optional: true
 
-  /@crxjs/vite-plugin@1.0.14(vite@4.3.4):
+  /@crxjs/vite-plugin@1.0.14(vite@4.3.9):
     resolution: {integrity: sha512-emOueVCqFRFmpcfT80Xsm4mfuFw9VSp5GY4eh5qeLDeiP81g0hddlobVQCo0pE2ZvNnWbyhLrXEYAaMAXjNL6A==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -304,9 +304,9 @@ packages:
       picocolors: 1.0.0
       react-refresh: 0.13.0
       rollup: 2.79.1
-      vite: 4.3.4
+      vite: 4.3.9
     optionalDependencies:
-      '@vitejs/plugin-react': 4.0.0(vite@4.3.4)
+      '@vitejs/plugin-react': 4.0.0(vite@4.3.9)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -836,7 +836,7 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: true
 
-  /@vitejs/plugin-react@4.0.0(vite@4.3.4):
+  /@vitejs/plugin-react@4.0.0(vite@4.3.9):
     resolution: {integrity: sha512-HX0XzMjL3hhOYm+0s95pb0Z7F8O81G7joUHgfDd/9J/ZZf5k4xX6QAMFkKsHFxaHlf6X7GD7+XuaZ66ULiJuhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     requiresBuild: true
@@ -847,7 +847,7 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.21.0(@babel/core@7.21.8)
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.21.8)
       react-refresh: 0.14.0
-      vite: 4.3.4
+      vite: 4.3.9
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2551,8 +2551,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite@4.3.4:
-    resolution: {integrity: sha512-f90aqGBoxSFxWph2b39ae2uHAxm5jFBBdnfueNxZAT1FTpM13ccFQExCaKbR2xFW5atowjleRniQ7onjJ22QEg==}
+  /vite@4.3.9:
+    resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
