@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^1.0.14
     version: 1.0.14(vite@4.5.0)
   '@types/chrome':
-    specifier: ^0.0.250
-    version: 0.0.250
+    specifier: ^0.0.251
+    version: 0.0.251
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.10.0
     version: 6.10.0(@typescript-eslint/parser@6.10.0)(eslint@8.53.0)(typescript@5.2.2)
@@ -702,8 +702,8 @@ packages:
     dev: true
     optional: true
 
-  /@types/chrome@0.0.250:
-    resolution: {integrity: sha512-bg6UC+cXS5blsaJaVOg0TQfu6FG64og/4o+65IuaVvlTKBzNUiazLabPde+gRpk8DSrqpGBPk0xME+tbU3KlKg==}
+  /@types/chrome@0.0.251:
+    resolution: {integrity: sha512-UF+yr0LEKWWGsKxQ5A3XOSF5SNoU1ctW3pXcWJPpT8OOUTEspYeaLU8spDKe+6xalXeMTS0TBrX1g0b6qlWmkw==}
     dependencies:
       '@types/filesystem': 0.0.32
       '@types/har-format': 1.2.10
