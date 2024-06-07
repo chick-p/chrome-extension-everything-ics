@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@crxjs/vite-plugin':
     specifier: ^1.0.14
-    version: 1.0.14(vite@5.2.12)
+    version: 1.0.14(vite@5.2.13)
   '@types/chrome':
     specifier: ^0.0.268
     version: 0.0.268
@@ -30,8 +30,8 @@ devDependencies:
     specifier: ^5.4.5
     version: 5.4.5
   vite:
-    specifier: ^5.2.12
-    version: 5.2.12
+    specifier: ^5.2.13
+    version: 5.2.13
 
 packages:
 
@@ -342,7 +342,7 @@ packages:
     dev: true
     optional: true
 
-  /@crxjs/vite-plugin@1.0.14(vite@5.2.12):
+  /@crxjs/vite-plugin@1.0.14(vite@5.2.13):
     resolution: {integrity: sha512-emOueVCqFRFmpcfT80Xsm4mfuFw9VSp5GY4eh5qeLDeiP81g0hddlobVQCo0pE2ZvNnWbyhLrXEYAaMAXjNL6A==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -362,9 +362,9 @@ packages:
       picocolors: 1.0.0
       react-refresh: 0.13.0
       rollup: 2.79.1
-      vite: 5.2.12
+      vite: 5.2.13
     optionalDependencies:
-      '@vitejs/plugin-react': 4.3.0(vite@5.2.12)
+      '@vitejs/plugin-react': 4.3.0(vite@5.2.13)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1006,7 +1006,7 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@vitejs/plugin-react@4.3.0(vite@5.2.12):
+  /@vitejs/plugin-react@4.3.0(vite@5.2.13):
     resolution: {integrity: sha512-KcEbMsn4Dpk+LIbHMj7gDPRKaTMStxxWRkRmxsg/jVdFdJCZWt1SchZcf0M4t8lIKdwwMsEyzhrcOXRrDPtOBw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     requiresBuild: true
@@ -1018,7 +1018,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.24.6(@babel/core@7.24.6)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.2.12
+      vite: 5.2.13
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2736,8 +2736,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite@5.2.12:
-    resolution: {integrity: sha512-/gC8GxzxMK5ntBwb48pR32GGhENnjtY30G4A0jemunsBkiEZFw60s8InGpN8gkhHEkjnRK1aSAxeQgwvFhUHAA==}
+  /vite@5.2.13:
+    resolution: {integrity: sha512-SSq1noJfY9pR3I1TUENL3rQYDQCFqgD+lM6fTRAM8Nv6Lsg5hDLaXkjETVeBt+7vZBCMoibD+6IWnT2mJ+Zb/A==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
