@@ -18,7 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "@crxjs/vite-plugin": "^1.0.14",
-    "@types/chrome": "^0.0.309",
+    "@types/chrome": "^0.0.310",
     "@typescript-eslint/eslint-plugin": "^8.26.1",
     "eslint": "^9.23.0",
     "eslint-config-prettier": "^10.1.1",
