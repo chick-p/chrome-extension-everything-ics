@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.14
         version: 1.0.14(vite@5.4.11)
       '@types/chrome':
-        specifier: ^0.0.313
-        version: 0.0.313
+        specifier: ^0.0.315
+        version: 0.0.315
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.29.1
         version: 8.29.1(@typescript-eslint/parser@8.29.1(eslint@9.24.0)(typescript@5.8.3))(eslint@9.24.0)(typescript@5.8.3)
@@ -497,8 +497,8 @@ packages:
   '@types/babel__traverse@7.20.4':
     resolution: {integrity: sha512-mSM/iKUk5fDDrEV/e83qY+Cr3I1+Q3qqTuEn++HAWYjEa1+NxZr6CNrcJGf2ZTnq4HoFGC3zaTPZTobCzCFukA==}
 
-  '@types/chrome@0.0.313':
-    resolution: {integrity: sha512-9R5T7gTaYZhkxlu+Ho4wk9FL+y/werWQY2yjGWSqCuiTsqS7nL/BE5UMTP6rU7J+oIG2FRKqrEycHhJATeltVA==}
+  '@types/chrome@0.0.315':
+    resolution: {integrity: sha512-Oy1dYWkr6BCmgwBtOngLByCHstQ3whltZg7/7lubgIZEYvKobDneqplgc6LKERNRBwckFviV4UU5AZZNUFrJ4A==}
 
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
@@ -1975,7 +1975,7 @@ snapshots:
       '@babel/types': 7.23.5
     optional: true
 
-  '@types/chrome@0.0.313':
+  '@types/chrome@0.0.315':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
