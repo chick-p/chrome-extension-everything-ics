@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@crxjs/vite-plugin':
-        specifier: ^2.6.1
-        version: 2.6.1(vite@8.0.16(esbuild@0.27.3))
+        specifier: ^2.7.0
+        version: 2.7.0(vite@8.0.16(esbuild@0.27.3))
       '@eslint/js':
         specifier: ^10.0.1
         version: 10.0.1(eslint@10.5.0)
@@ -41,8 +41,8 @@ importers:
 
 packages:
 
-  '@crxjs/vite-plugin@2.6.1':
-    resolution: {integrity: sha512-0RmYlUtQGvHXCz3B/FW7P5j+RBZUc4mk3GIRPXCx5a52N8AQ0e35GvE+Pcap/TKuI09PJgcRTdXeBOavtLVyYg==}
+  '@crxjs/vite-plugin@2.7.0':
+    resolution: {integrity: sha512-NN98fUgJOEiVBshELJnYCW54+K2Yy067++/K+RdxclHsyG08ea+Em3lJJTubtPTCl2bECyp4+K69oT+izilnNw==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
 
@@ -870,10 +870,6 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  react-refresh@0.13.0:
-    resolution: {integrity: sha512-XP8A9BT0CpRBD+NYLLeIhld/RqG9+gktUjW1FkE+Vm7OCinbG1SshcK5tb9ls4kzvjZr9mOQc7HYgBngEyPAXg==}
-    engines: {node: '>=0.10.0'}
-
   read-package-json-fast@6.0.0:
     resolution: {integrity: sha512-PNaGjoCnw9DBA2Kl8D+8po957z778q/HOPuY2u3Bkw/JO3eC8MDx7jn/PgMtSgpcBbs+6UOjDbwReGpXmRvs0g==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
@@ -1011,7 +1007,7 @@ packages:
 
 snapshots:
 
-  '@crxjs/vite-plugin@2.6.1(vite@8.0.16(esbuild@0.27.3))':
+  '@crxjs/vite-plugin@2.7.0(vite@8.0.16(esbuild@0.27.3))':
     dependencies:
       '@webcomponents/custom-elements': 1.6.0
       acorn-walk: 8.3.5
@@ -1024,7 +1020,6 @@ snapshots:
       node-html-parser: 7.1.0
       pathe: 2.0.3
       picocolors: 1.1.1
-      react-refresh: 0.13.0
       rollup: 2.80.0
       rxjs: 7.5.7
       tinyglobby: 0.2.17
@@ -1745,8 +1740,6 @@ snapshots:
   prettier@3.8.4: {}
 
   punycode@2.3.1: {}
-
-  react-refresh@0.13.0: {}
 
   read-package-json-fast@6.0.0:
     dependencies:
