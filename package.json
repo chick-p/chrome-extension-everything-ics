@@ -22,7 +22,7 @@
     "@types/chrome": "^0.3.5",
     "eslint": "^10.13.0",
     "eslint-config-prettier": "^10.1.8",
-    "npm-run-all2": "^9.0.3",
+    "npm-run-all2": "^9.0.4",
     "prettier": "^3.9.10",
     "typescript": "^6.0.3",
     "typescript-eslint": "8.72.0",
